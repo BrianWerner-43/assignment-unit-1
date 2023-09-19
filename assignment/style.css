@@ -1,16 +1,27 @@
+
 /* Add a background color to the header element */
+
 header {
     background-color: rgb(204, 237, 249);
     border: solid black 2px;
 }
 
 /* Add a fun background color to the main element */
+
 main {
     background-color: lightpink;
     border: solid black 2px;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 
 /* Align the h1 containing your name in the center of the header*/
+
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -18,12 +29,13 @@ h1 {
 }
 
 
-
 /* Put a border around your image */
 /* I also put a hover effect that will display a message when hovered over*/
+
 .image {
     position: relative; 
-    border: 2px solid black;
+    border: 2px solid rgb(7, 164, 156);
+    border-radius: 5px 5px 5px 5px;
     margin: auto;
     top: 10px;
     width: 300px;
@@ -60,14 +72,34 @@ img {
 }
 
 .image:hover .message {
-    opacity: 0.75;
+    opacity: .75;
 }
 
 /* Change the font-family of your list */
+
 ul {
     font-family: 'Courier New', Courier, monospace;
 }
 
 /* Add a background color to the footer element */
 
+.quote {
+    border: solid black 2px;
+    border-radius: 45px 45px 45px 45px;
+    background-color: aquamarine;
+    margin:auto;
+    bottom: 0;
+    width: 45%;
+    height: 3.2rem;    
+    
+    
+}
+
+
 /* Make your p tag a different color and italic */
+p {
+    color: rgb(148, 16, 148);
+    text-align: center;
+    font-style: italic;
+    
+}
